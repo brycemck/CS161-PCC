@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1.
 
 	a) Multiply testScore by weightedAverage.
@@ -13,6 +14,8 @@
 	e) Calculate the price per square inch by dividing the value of pizzaArea by the value of pizzaPrice (pizzaArea/pizzaPrice).
 	f) Assign the above result to a variable of type double, called pricePerInch.
 
+=======
+>>>>>>> 7e98335ee4c231b6562b8784a320a9e1b9468e20
 3.
 
 	a) Initialize totalPrice variable as a double, and set it equal to 0.
