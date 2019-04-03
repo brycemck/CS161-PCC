@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 1.
 
 	a) Multiply testScore by weightedAverage.
@@ -14,8 +13,6 @@
 	e) Calculate the price per square inch by dividing the value of pizzaArea by the value of pizzaPrice (pizzaArea/pizzaPrice).
 	f) Assign the above result to a variable of type double, called pricePerInch.
 
-=======
->>>>>>> 7e98335ee4c231b6562b8784a320a9e1b9468e20
 3.
 
 	a) Initialize totalPrice variable as a double, and set it equal to 0.
@@ -25,3 +22,22 @@
 	e) If requestedService equals "mowing", calculate the subtotal price by multiplying requestedServiceMagnitude by (35/5000). If requestedService equals "fertilizing", calculate the subtotal price by multiplying requestedServiceMagnitude by 30. If requestedService equals "planting", multiply requestedServiceMagnitude by 50. Increment totalPrice by the result.
 	f) Repeat steps "b" through "e" until all three services have been selected.
 	g) Print totalPrice so that the user knows how much they will be billed.
+
+4.
+
+	a) Initialize variables a, b, and c as doubles and set them equal to what a, b, and c are equivalent to given the formula provided.
+	b) First, solve for the discriminant by squaring b, and subtracting by 4*a*c.
+	c) Set the result to the variable "discriminant".
+	d) If "discriminant" is less than 0, exit the process as there are no real roots.
+	e) If "discriminant" is equal to 0, there must be only one real root. To solve, do the following:
+		1) Set b to be the opposite of b.
+		2) Divide b by 2*a.
+		3) Store the result in the variable "realRoot".
+	f) If "discriminant" is greater than 0, there will be two real roots. To solve, do the following:
+		1) Set b to be the opposite of b.
+		2) Subtract b by the square root of "discriminant".
+		3) Divide the result of the above by 2*a.
+		4) Store the result in the variable "realRootOne".
+		5) Add b to the value of the square root of "discriminant".
+		6) Divide the result of the above by 2*a.
+		7) Store the result in the variable "realRootTwo".
