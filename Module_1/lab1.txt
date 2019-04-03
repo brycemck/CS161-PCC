@@ -1,0 +1,24 @@
+1.
+
+	a) Multiply testScore by weightedAverage.
+	b) Store the result into a variable called testScoreWeight.
+	c) Increment testScore by the value of testScoreWeight.
+
+2.
+
+	a) Assign the radius of the pizza to a variable of type double, called pizzaRadius.
+	b) Assign the price of the pizza to a variable of type double, called pizzaPrice.
+	c) Calculate the area of the pizza by using the area of a circle formula. In this case, it would be (pizzaRadius^2)*PI.
+	d) Assign the above result to a variable of type double, called pizzaArea.
+	e) Calculate the price per square inch by dividing the value of pizzaArea by the value of pizzaPrice (pizzaArea/pizzaPrice).
+	f) Assign the above result to a variable of type double, called pricePerInch.
+
+3.
+
+	a) Initialize totalPrice variable as a double, and set it equal to 0.
+	b) Read user input and accept only the values "mowing", "fertilizing", and "planting".
+	c) Store the response from the above under the variable requestedService.
+	d) Read user input again. If requestedService equals "mowing", ask for the square footage. If requestedService equals "fertilzing", ask how many applications. If requestedService equals "planting", ask how many trees. Store the response under requestedServiceMagnitude.
+	e) If requestedService equals "mowing", calculate the subtotal price by multiplying requestedServiceMagnitude by (35/5000). If requestedService equals "fertilizing", calculate the subtotal price by multiplying requestedServiceMagnitude by 30. If requestedService equals "planting", multiply requestedServiceMagnitude by 50. Increment totalPrice by the result.
+	f) Repeat steps "b" through "e" until all three services have been selected.
+	g) Print totalPrice so that the user knows how much they will be billed.
